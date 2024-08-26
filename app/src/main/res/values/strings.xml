@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OMNI</string>
+    <string name="password">My Passwords</string>
+    <string name="service">Service</string>
+    <string name="username_email">Username / Email</string>
+    <string name="enter_password">Enter Password Here</string>
+    <string name="web_url">Enter Web Url</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="storage_permission_text">This app needs access to your storage.</string>
+    <string name="search">Search your passwords</string>
+    <string name="instructions">To begin, please enter a Password Key</string>
+    <string name="caution">CAUTION! DO NOT EXIT OR CLOSE THE APP</string>
+    <string name="authentication">Use your fingerprint or password to enter</string>
+</resources>

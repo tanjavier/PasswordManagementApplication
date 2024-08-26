@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.passwordManagement.BiometricAuthentication">
+
+    <TextView
+        android:id="@+id/txtFinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:text="Welcome"
+        android:fontFamily="@font/manrope_bold"
+        android:textColor="@color/ColorWhite"
+        android:textSize="@dimen/_40ssp" />
+
+    <TextView
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Scan you fingerprint to Enter"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtFinger"
+        android:fontFamily="@font/manrope_regular"
+        android:textColor="@color/ColorWhite"/>
+
+
+    <ImageView
+        android:id="@+id/btnFinger"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:padding="@dimen/_15sdp"
+        android:layout_below="@+id/scan"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corner_4"
+        android:src="@drawable/ic_finger" />
+
+    <Button
+        android:id="@+id/btnPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFinger"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corner_1"
+        android:padding="@dimen/_10sdp"
+        android:text="ENTER PASSWORD KEY"
+        android:textColor="@color/ColorWhite"
+        android:textSize="@dimen/_14sdp" />
+</RelativeLayout>
